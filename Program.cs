@@ -36,6 +36,7 @@ namespace CCFlow
                         chunks.Add(GetChunk(methods, cflowcyclevar, x, false));
                     }
                     Console.WriteLine("Saving sorted method...");
+                    if (!Directory.Exists("log")) { Directory.CreateDirectory("log"); }
                     StreamWriter me_file = File.CreateText("log\\CCFlow_log_" + methods.Name + DateTime.Now.Hour.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Second.ToString() + ".txt");
                     blockNum.Sort();
                     Array.Sort(blockNum.ToArray(), chunks.ToArray());

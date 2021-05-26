@@ -5,6 +5,7 @@ heres my attempt at a control flow (cflow) cleaner
 - This is not a magic tool (far from it, you will likely need to clean some stuff yourself), if anyone want to help you can contact me or fork the repo
 - This currently only support very simple cflow obfuscation (see Examples below)
 - Both the cleaned code & the original cflow will be present in the method(s) that were cleaned, there is a `ret` instruction that seperates them aswell as a bunch of `ldstr` to let you know which is which
+- the sorted methods are also saved as text files in the `log` folder
 
 # Usage
 Drag & Drop to Clean

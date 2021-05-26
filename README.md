@@ -1,5 +1,5 @@
 # CCFlow
-heres my attempt at a control flow (cflow) cleaner
+heres my attempt at a control flow (cflow) cleaner, don't expect much from it
 
 # Notes
 - This is not a magic tool (far from it, you will likely need to clean some stuff yourself), if anyone want to help you can contact me or fork the repo

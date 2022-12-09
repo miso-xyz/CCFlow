@@ -14,7 +14,7 @@ Drag & Drop to Clean
 # Examples
 Control Flow Obfuscation:
 <pre lang=csharp>
-int num = 0;
+int num = 1;
 for (;;)
 {
   if (num == 3)
